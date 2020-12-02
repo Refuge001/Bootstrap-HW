@@ -4,7 +4,6 @@
 }
 
 body {
-  background-color: green;
 }
 
 .l-navbar {
@@ -17,7 +16,18 @@ body {
 
 .l-navbar div {
   height: 5px;
-  background: green;
+  background: #e09e9e;
   margin: 7px 0px 7px 0px;
   border-radius: 25px;
+}
+
+
+#particles-js canvas
+{
+  height: 100%;
+  background: #e09e9e;
+  z-index: -10;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
