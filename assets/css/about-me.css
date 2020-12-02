@@ -1,4 +1,4 @@
-/* Copyright (c) 2011-2018, Twitter, Inc.
+* Copyright (c) 2011-2018, Twitter, Inc.
 * Copyright (c) 2011-2018, The Bootstrap Authors
 *
 * This file is licensed under the MIT License (MIT).
@@ -7,7 +7,7 @@
 * Copyright (c) 2015, Vincent Garreau
 *
 * This file is licensed under the MIT License (MIT).
-* A copy of this license may be found at https://github.com/VincentGarreau/particles.js/blob/master/LICENSE.md */
+* A copy of this license may be found at https://github.com/VincentGarreau/particles.js/blob/master/LICENSE.md
 
 * {
   margin: 0px;
@@ -32,11 +32,11 @@ body {
   border-radius: 25px;
 }
 
-.box-img {
-  width: 150px;
-  object-fit: cover;
-  height: 150px;
-  display: block; /* remove extra space below image */
+.float-left{
+  float: left;
+}
+
+.float-right{
   float: right;
 }
 
