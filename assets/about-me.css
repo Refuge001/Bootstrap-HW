@@ -40,7 +40,7 @@ body {
   width: 150px;
    /* remove extra space below image */
   display: block;
-  float: right;
+  float: left;
 }
 
 #particles-js canvas
