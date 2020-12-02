@@ -36,7 +36,7 @@ body {
 #particles-js canvas
 {
   background: #e09e9e;
-  z-index: -10;
+  z-index: -1;
   position: fixed;
   top: 0;
   left: 0;
