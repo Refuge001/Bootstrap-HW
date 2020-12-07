@@ -34,7 +34,7 @@
   border-radius: 25px;
 }
 
-.navbar-brand a{
+.navbar-brand {
   color: #e09e9e;
 }
 
@@ -53,6 +53,11 @@
 .dropdown:hover div {
   width: 30px;
   transition: 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #e09e9e;
+  font-size: 20px;
 }
 
 h2 {
