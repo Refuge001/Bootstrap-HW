@@ -34,30 +34,23 @@
   border-radius: 25px;
 }
 
-#line-one {
+.navbar-brand a{
+  color: #e09e9e;
+}
+
+.line1 {
   width: 15px;
 }
 
-.dropdown:hover #line-one {
-  width: 30px;
-  transition: 0.5s;
-}
-
-#line-two {
+.line2 {
   width: 20px;
 }
 
-.dropdown:hover 
-#line-two {
-  width: 30px;
-  transition: 0.5s;
-}
-
-#line-three {
+.line3 {
   width: 25px;
 }
 
-.dropdown:hover #line-three {
+.dropdown:hover div {
   width: 30px;
   transition: 0.5s;
 }
@@ -71,7 +64,7 @@ h2 {
   background-color:  rgb(255, 229, 196);
 }
 
-#contact {
+.contact {
   width: 350px;
 }
 
