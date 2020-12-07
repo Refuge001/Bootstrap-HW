@@ -14,9 +14,9 @@
   padding: 0px;
 }
 
-h1 {
+.navbar-light .navbar-brand {
   font-size: 30px;
-  color: #e09e9e
+  color: #e09e9e;
 }
 
 .l-navbar {
