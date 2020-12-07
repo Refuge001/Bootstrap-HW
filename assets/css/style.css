@@ -67,9 +67,7 @@ h2 {
 }
 
 .container {
-  display:inline-block;
-  margin: 1rem;
-  padding: 1rem;
+  padding: 30px;
   background-color: white;
 }
 
