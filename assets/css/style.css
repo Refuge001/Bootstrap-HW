@@ -14,20 +14,23 @@
   padding: 0px;
 }
 
-.navbar-brand {
-  color: #e09e9e;
-}
-
+/* Brand name "Will Utterback values */
 .navbar-light .navbar-brand {
   font-size: 30px;
   color: #e09e9e;
 }
 
+/* About Me, Portfolio, Contact me values */
 .navbar-light .navbar-nav .nav-link {
   color: #e09e9e;
   font-size: 20px;
 }
+/* Toggle - removed border due to color problems */
+.navbar-light .navbar-toggler {
+  border: 0;
+}
 
+/* Custom navbar item values, the button */
 .l-navbar {
   width: 60px;
   display: block;
@@ -36,6 +39,7 @@
   padding: 6px 8px;
 }
 
+/* More custom navbar stuff, the button */
 .l-navbar div {
   height: 5px;
   background: #0c0b0b;
@@ -43,6 +47,7 @@
   border-radius: 25px;
 }
 
+/* all line classes are for custom button */
 .line1 {
   width: 15px;
 }
@@ -55,6 +60,7 @@
   width: 25px;
 }
 
+/* custom button line animation */
 .dropdown:hover div {
   width: 30px;
   transition: 0.5s;
@@ -64,18 +70,20 @@ h2 {
   font-size: 24px;
 }
 
+/* Container values for all 3 pages */
 .container {
   padding: 30px;
   background-color:  rgb(255, 229, 196);
 }
 
+/* Contact container values - purposefully didn't use bootstrap */
 .contact {
   width: 350px;
 }
 
+/* Color required for accessibility */
 .btn-primary {
   background-color: navy;
-  border-color: navy;
 }
 
 .footer {
@@ -88,6 +96,7 @@ h2 {
   color: white;
 }
 
+/* Background javascript stuff */
 #particles-js 
 canvas {
   height: 100%;
