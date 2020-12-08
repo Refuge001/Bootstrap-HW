@@ -73,6 +73,11 @@ h2 {
   width: 350px;
 }
 
+.btn-primary {
+  background-color: navy;
+  border-color: navy;
+}
+
 .footer {
   left: 0;
   bottom: 0;
