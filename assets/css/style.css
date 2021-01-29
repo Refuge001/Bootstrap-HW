@@ -1,4 +1,4 @@
-* Copyright (c) 2011-2018, Twitter, Inc.
+/* * Copyright (c) 2011-2018, Twitter, Inc.
 * Copyright (c) 2011-2018, The Bootstrap Authors
 *
 * This file is licensed under the MIT License (MIT).
@@ -7,7 +7,7 @@
 * Copyright (c) 2015, Vincent Garreau
 *
 * This file is licensed under the MIT License (MIT).
-* A copy of this license may be found at https://github.com/VincentGarreau/particles.js/blob/master/LICENSE.md
+* A copy of this license may be found at https://github.com/VincentGarreau/particles.js/blob/master/LICENSE.md */
 
 * {
   margin: 0px;
@@ -30,7 +30,7 @@
   border: 0;
 }
 
-/* Custom navbar item values, the button */
+/* navbar item values, the button */
 .l-navbar {
   width: 60px;
   display: block;
@@ -39,7 +39,7 @@
   padding: 6px 8px;
 }
 
-/* More custom navbar stuff, the button */
+/* More navbar stuff, the button */
 .l-navbar div {
   height: 5px;
   background: #0c0b0b;
@@ -47,7 +47,7 @@
   border-radius: 25px;
 }
 
-/* all line classes are for custom button */
+/* all line classes are for button */
 .line1 {
   width: 15px;
 }
@@ -60,7 +60,7 @@
   width: 25px;
 }
 
-/* custom button line animation */
+/* button line animation */
 .dropdown:hover div {
   width: 30px;
   transition: 0.5s;
@@ -73,7 +73,7 @@ h2 {
 /* Container values for all 3 pages */
 .container {
   padding: 30px;
-  background-color:  rgb(255, 229, 196);
+  background-color: rgb(255, 229, 196);
 }
 
 /* Contact container values - purposefully didn't use bootstrap */
@@ -97,8 +97,7 @@ h2 {
 }
 
 /* Background javascript stuff */
-#particles-js 
-canvas {
+#particles-js canvas {
   height: 100%;
   background: navy;
   z-index: -1;
