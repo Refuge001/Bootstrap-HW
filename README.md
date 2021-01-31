@@ -8,7 +8,7 @@
 3. Increase the webpage's readability - most CSS styling is done by class within html.
 4. Helps reduce browser differences for page elements.
 ---
-#Other Technologies Used
+# Other Technologies Used
 1. Particles.js - used to create the responsive background.
 ---
 ![My Homepage](/assets/img/markdown.png)
