@@ -12,7 +12,7 @@
 1. Particles.js - used to create the responsive background.
 ---
 ![My Homepage](/assets/img/markdown.png)
-![My_Homepage2](/assets/img/markdown2.png)
+![My_Homepage2](/assets/img/markdown2.bmp)
 ---
 # https://wjutterback.github.io/homepage/
 #### To check it all out, click the link above, and if you'd like to contribute, send me your ideas at uwill08@gmail.com.
