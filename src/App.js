@@ -121,7 +121,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/homepage/' component={AboutMe} />
+          <Route exact path='/' component={AboutMe} />
           <Route exact path='/portfolio' component={Portfolio} />
           <Route exact path='/contact' component={Contact} />
           <Route path='*' component={AboutMe} />

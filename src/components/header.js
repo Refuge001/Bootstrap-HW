@@ -40,7 +40,7 @@ function Header() {
         <div className='collapse navbar-collapse'>
           <ul className='navbar-nav ml-auto'>
             <li className='nav-item'>
-              <a className='nav-link' href='/'>
+              <a className='nav-link' href='#/'>
                 About Me
               </a>
             </li>
