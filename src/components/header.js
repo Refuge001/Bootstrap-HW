@@ -3,7 +3,7 @@ function Header() {
     <header>
       <nav className='navbar navbar-expand-lg navbar-light bg-dark'>
         <h1>
-          <a className='navbar-brand' href='/index'>
+          <a className='navbar-brand' href='#/'>
             Will Utterback
           </a>
         </h1>
