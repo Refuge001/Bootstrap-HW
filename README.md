@@ -6,8 +6,8 @@
 
 ---
 
-![My Homepage](/assets/img/markdown.png)
-![My_Homepage2](/assets/img/markdown2.bmp)
+![My Homepage](/public/assets/img/markdown.png)
+![My_Homepage2](/public/assets/img/markdown2.png)
 
 ---
 
