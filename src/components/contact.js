@@ -1,8 +1,47 @@
+import { useState } from 'react';
+import { Email } from '../smtp';
+
 function Contact() {
+  const [message, setMessage] = useState('');
+  const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+  async function sendEmail() {
+    // eslint-disable-next-line no-undef
+    Email.send({
+      SecureToken: '0ffd6e24-34b6-40b9-985c-f9c4b2bfae6a',
+      To: 'uwill08@gmail.com',
+      From: email,
+      Subject: `Homepage Email from ${name}!`,
+      Body: message,
+    }).then((message) => {
+      if (message === 'OK') {
+        document.getElementById('mailmessage').textContent =
+          'Your message was sent!';
+        document.getElementById('input-name').value = '';
+        document.getElementById('input-email').value = '';
+        document.getElementById('input-message').value = '';
+      }
+    });
+  }
+
+  function handleMessage({ target }) {
+    const { value } = target;
+    setMessage(value);
+  }
+  function handleName({ target }) {
+    const { value } = target;
+    setName(value);
+  }
+  function handleEmail({ target }) {
+    const { value } = target;
+    setEmail(value);
+  }
+
   return (
     <div className='container col-lg-6' style={{ width: '350px' }}>
       <div className='row'>
         <div className='col'>
+          <div style={{ fontSize: '20px' }} id='mailmessage'></div>
           <div className='page-header mt-2'>
             <div className='card mx-auto' style={{ width: '18rem' }}>
               <div className='card-body'>
@@ -39,6 +78,7 @@ function Contact() {
               className='form-control'
               id='input-name'
               placeholder='Name'
+              onChange={handleName}
             />
           </div>
           <div className='form-group'>
@@ -50,6 +90,7 @@ function Contact() {
               className='form-control'
               id='input-email'
               placeholder='E-mail'
+              onChange={handleEmail}
             />
           </div>
           <div className='form-group'>
@@ -61,10 +102,15 @@ function Contact() {
               id='input-message'
               rows='3'
               placeholder='Message'
+              onChange={handleMessage}
             ></textarea>
           </div>
           <div style={{ textAlign: 'center' }}>
-            <button type='submit' className='btn btn-primary'>
+            <button
+              type='submit'
+              onClick={sendEmail}
+              className='btn btn-primary'
+            >
               Submit
             </button>
           </div>
