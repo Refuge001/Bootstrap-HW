@@ -55,7 +55,7 @@ function Portfolio() {
       </div>
       <div className='row'>
         <Project
-          img={`${process.env.PUBLIC_URL}/assets/preview.png`}
+          img={`${process.env.PUBLIC_URL}/assets/img/searchthelibrary.png`}
           name={'Search The Library'}
           github={'https://github.com/wjutterback/Search-The-Library'}
           deployed={'https://search-the-library.herokuapp.com/'}
