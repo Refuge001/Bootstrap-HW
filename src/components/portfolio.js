@@ -53,6 +53,14 @@ function Portfolio() {
           deployed={'https://youtu.be/6SiO8HQaijo'}
         />
       </div>
+      <div className='row'>
+        <Project
+          img={`${process.env.PUBLIC_URL}/assets/preview.png`}
+          name={'Search The Library'}
+          github={'https://github.com/wjutterback/Search-The-Library'}
+          deployed={'https://search-the-library.herokuapp.com/'}
+        />
+      </div>
     </div>
   );
 }
