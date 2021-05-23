@@ -13,10 +13,10 @@ function Portfolio() {
       <hr />
       <div className='row'>
         <Project
-          img={`${process.env.PUBLIC_URL}/assets/img/weather.png`}
-          name={'Weather App'}
-          github={'https://github.com/wjutterback/Weather-Dashboard'}
-          deployed={'https://wjutterback.github.io/Weather-Dashboard/'}
+          img={`${process.env.PUBLIC_URL}/assets/img/tigerblood.png`}
+          name={'Tigerblood - Coding Video Game'}
+          github={'https://github.com/wjutterback/Tigerblood'}
+          deployed={'https://tiger-blood.herokuapp.com/'}
         />
         <Project
           img={`${process.env.PUBLIC_URL}/assets/img/jwjplusplus.png`}
@@ -59,6 +59,12 @@ function Portfolio() {
           name={'Search The Library'}
           github={'https://github.com/wjutterback/Search-The-Library'}
           deployed={'https://search-the-library.herokuapp.com/'}
+        />
+        <Project
+          img={`${process.env.PUBLIC_URL}/assets/img/weather.png`}
+          name={'Weather App'}
+          github={'https://github.com/wjutterback/Weather-Dashboard'}
+          deployed={'https://wjutterback.github.io/Weather-Dashboard/'}
         />
       </div>
     </div>
