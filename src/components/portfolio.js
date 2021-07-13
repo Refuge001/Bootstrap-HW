@@ -27,10 +27,10 @@ function Portfolio() {
       </div>
       <div className='row'>
         <Project
-          img={`${process.env.PUBLIC_URL}/assets/img/schedule.png`}
-          name={'Work Scheduler'}
-          github={'https://github.com/wjutterback/Work-Day-Scheduler'}
-          deployed={'https://wjutterback.github.io/Work-Day-Scheduler'}
+          img={`${process.env.PUBLIC_URL}/assets/img/blogwitbuddies.png`}
+          name={'Blog with Buddies'}
+          github={'https://github.com/wjutterback/Blog-With-Buddies'}
+          deployed={'https://wills-blog-site.herokuapp.com/'}
         />
         <Project
           img={`${process.env.PUBLIC_URL}/assets/img/sermones.png`}
@@ -41,10 +41,10 @@ function Portfolio() {
       </div>
       <div className='row'>
         <Project
-          img={`${process.env.PUBLIC_URL}/assets/img/blogwitbuddies.png`}
-          name={'Blog with Buddies'}
-          github={'https://github.com/wjutterback/Blog-With-Buddies'}
-          deployed={'https://wills-blog-site.herokuapp.com/'}
+          img={`${process.env.PUBLIC_URL}/assets/img/searchthelibrary.png`}
+          name={'Search The Library'}
+          github={'https://github.com/wjutterback/Search-The-Library'}
+          deployed={'https://search-the-library.herokuapp.com/'}
         />
         <Project
           img={`${process.env.PUBLIC_URL}/assets/img/employeetracker.png`}
@@ -55,10 +55,10 @@ function Portfolio() {
       </div>
       <div className='row'>
         <Project
-          img={`${process.env.PUBLIC_URL}/assets/img/searchthelibrary.png`}
-          name={'Search The Library'}
-          github={'https://github.com/wjutterback/Search-The-Library'}
-          deployed={'https://search-the-library.herokuapp.com/'}
+          img={`${process.env.PUBLIC_URL}/assets/img/schedule.png`}
+          name={'Work Scheduler'}
+          github={'https://github.com/wjutterback/Work-Day-Scheduler'}
+          deployed={'https://wjutterback.github.io/Work-Day-Scheduler'}
         />
         <Project
           img={`${process.env.PUBLIC_URL}/assets/img/weather.png`}
