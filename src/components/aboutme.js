@@ -38,7 +38,7 @@ function AboutMe() {
             program in May of 2021 with a 4.0 GPA. This site, while a work in
             progress, was built with everything I've learned so far, which
             itself has been a fun and rewarding experience. I plan to continue
-            adding to it for some time - when I get the time. git I hope you have
+            adding to it for some time - when I get the time. I hope you have
             some time to check out my portfolio, and if you have any questions
             or comments feel free to contact me.
           </p>
