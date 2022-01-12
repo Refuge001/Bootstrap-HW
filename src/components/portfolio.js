@@ -20,7 +20,7 @@ function Portfolio() {
         />
         <Project
           img={`${process.env.PUBLIC_URL}/assets/img/jwjplusplus.png`}
-          name={'Face Scanner'}
+          name={'Face Scanner - Image App'}
           github={'https://github.com/wjutterback/JoyWillJazzPlusPlus'}
           deployed={'https://wjutterback.github.io/JoyWillJazzPlusPlus'}
         />
