@@ -8,7 +8,7 @@ import Particles from 'react-tsparticles';
 
 function App() {
   return (
-    <>
+    <Router>
       <Particles
         id='tsparticles'
         options={{
@@ -68,8 +68,7 @@ function App() {
                 nb_sides: 5,
               },
               image: {
-                src:
-                  'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+                src: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
                 width: 100,
                 height: 100,
               },
@@ -118,17 +117,15 @@ function App() {
           detectRetina: true,
         }}
       />
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path='/' component={AboutMe} />
-          <Route exact path='/portfolio' component={Portfolio} />
-          <Route exact path='/contact' component={Contact} />
-          <Route path='*' component={AboutMe} />
-        </Switch>
-        <Footer />
-      </Router>
-    </>
+      <Header />
+      <Switch>
+        <Route exact path='/' component={AboutMe} />
+        <Route exact path='/portfolio' component={Portfolio} />
+        <Route exact path='/contact' component={Contact} />
+        <Route path='*' component={AboutMe} />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 

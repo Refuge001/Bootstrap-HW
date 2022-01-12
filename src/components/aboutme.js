@@ -34,11 +34,13 @@ function AboutMe() {
       <div className='row'>
         <div className='col-md-12 col-sm-10 col-xs-6 col-lg-12'>
           <p>
-            Now I'm embarking on a new adventure in the world of computer
-            programming through a program at Rice University. This site was
-            built with everything I've learned so far, which itself has been a
-            fun experience. I hope you have some time to check out my portfolio,
-            and if you have any questions or comments feel free to contact me.
+            I graduated from Rice University's Full Stack Web Development
+            program in May of 2021 with a 4.0 GPA. This site, while a work in
+            progress, was built with everything I've learned so far, which
+            itself has been a fun and rewarding experience. I plan to continue
+            adding to it for some time - when I get the time. git I hope you have
+            some time to check out my portfolio, and if you have any questions
+            or comments feel free to contact me.
           </p>
         </div>
       </div>
